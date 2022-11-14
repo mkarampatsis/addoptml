@@ -1,0 +1,172 @@
+---
+---
+@import 'carousel';
+@import 'contact';
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.featurette-divider {
+  margin:5rem 0;
+}
+
+.ml-auto .dropdown-menu {
+  left: auto !important;
+  right: 300px;
+}
+
+#page{
+  margin-top: 50px;
+}
+
+
+// Section About
+section.about-section {
+  margin-bottom: 100px;
+}
+
+section.about-section .section-header h2 {
+  text-align: center;
+}
+
+section.about-section .section-content p {
+  text-align: justify;
+}
+
+section.about-section .section-image img{
+  width: 400px;
+  height: 350px;
+  padding-right: 20px;
+}
+
+// Section Project
+section.project-section {
+  margin-bottom: 100px;
+}
+
+section.project-section .section-header h2 {
+  text-align: center;
+}
+
+section.project-section .section-content p {
+  text-align: justify;
+}
+
+section.project-section .section-image img{
+  text-align: center;
+}
+
+// Section Members
+section.members-section {
+  margin-bottom: 100px;
+}
+
+section.members-section .section-header h2 {
+  text-align: center;
+}
+
+section.members-section .section-content p {
+  text-align: justify;
+}
+
+section.members-section .section-image img{
+  text-align: center;
+}
+
+// Section Coordinator
+section.coordinator-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+section.coordinator-section .section-header h2 {
+  text-align: center;
+}
+
+section.coordinator-section .section-content p {
+  text-align: justify;
+}
+
+section.coordinator-section .section-image img{
+  width: 400px;
+  height: 350px;
+  padding-right: 20px;
+}
+
+// Section Contact
+section.contact-section {
+  margin-bottom: 100px;
+}
+
+section.contact-section .section-header h2 {
+  text-align: center;
+}
+
+section.contact-section .section-content p {
+  text-align: center;
+}
+
+section.contact-section .section-image img{
+  width: 400px;
+  height: 350px;
+  padding-right: 20px;
+}
+
+// Section Consortium
+section.consortium-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+section.consortium-section .section-header h2 {
+  text-align: center;
+}
+
+section.consortium-section .section-content p {
+  text-align: justify;
+}
+
+section.consortium-section .section-image img{
+ text-align: center;
+}
+
+// Section Working Packages
+section.wp-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+section.wp-section .section-header h2 {
+  text-align: center;
+}
+
+section.wp-section .section-content {
+  text-align: justify;
+}
+
+section.wp-section .section-image img{
+ text-align: center;
+}
+
+// Section Events
+section.events-section {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+section.events-section .section-header h3 {
+  text-align: center;
+}
+
+section.events-section .section-header h4 {
+  text-align: center;
+}
+
+
+section.events-section .section-content p {
+  text-align: justify;
+}
+
+section.events-section .section-content hr {
+  border-color: black;
+}

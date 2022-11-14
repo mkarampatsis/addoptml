@@ -1,0 +1,49 @@
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="row">
+      {% for t in site.contact %}
+      <div class="col-lg-4 contact-member">
+        <img class="rounded-circle" src="{{t.img}}" alt="Generic placeholder image" width="140" height="140">
+        <!-- <h2>{{t.name}}</h2> -->
+        <!-- <h4>{{t.position}}</h4>
+        <p>{{t.bio}}</p> -->
+        <!-- <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p> -->
+      </div>
+      {% endfor %}
+    </div>
+    <br>
+    <div class="row">  
+
+      <!-- Section Header -->
+      <header class="col-md-12 col-md-push-2 col-sm-12 section-header">
+        <h2>Contact</h2>
+        <hr class="normal">
+      </header>
+    </div>
+    <div class="row">
+      <!-- Section Content -->
+      <div class="col-md-12 col-md-push-2 col-sm-12 section-content">
+        <p>Institute of Structural Analysis & Antiseismic Research,</p>
+        <p>Department of Structural Engineering,</p>
+        <p>School of Civil Engineering,</p>
+        <p>National Technical University of Athens,</p>
+        <p>9 Heroon Polytechniou Str., Zografou Campus,</p>
+        <p>Athens 157 80, Greece</p>
+        <p>support@addoptml.ntua.gr +302107721656</p>
+        <p>
+          <a href="https://www.facebook.com/ADDOPTML/" target="_blank">
+            <img class="rounded" width="30" height="30" src="{{site.baseurl}}/assets/imgs/other/facebook.png" alt="facebook">
+          </a>
+          <a href="https://twitter.com/addoptml" target="_blank">
+            <img class="rounded" width="30" height="30" src="{{site.baseurl}}/assets/imgs/other/twitter.png" alt="twitter">
+          </a>
+          <a href="https://www.researchgate.net/project/ADDitively-Manufactured-OPTimized-Structures-by-means-of-Machine-Learning-ADDOPTML" target="_blank">
+            <img class="rounded" width="30" height="30" src="{{site.baseurl}}/assets/imgs/other/researchgate.png" alt="researchgate">
+          </a>
+        </p>
+      </div>
+
+    </div>
+    
+  </div>
+</section>

@@ -1,0 +1,31 @@
+<section class="members-section" id="members">
+  <div class="container">
+   
+    <div class="row">  
+      <!-- Section Header -->
+      <header class="col-md-12 col-md-push-2 col-sm-12 section-header">
+        <h2>Members</h2>
+        <hr class="normal">
+      </header>
+    </div>
+
+    {% for project in page.members %}
+    <div class="row align-items-center">
+      <div class="col-md-7 {% cycle '', 'order-md-2' %} section-content">
+        <h2 class="featurette-heading">
+          {{project.title}}
+          <span class="text-muted">{{project.subtitle}}</span>
+        </h2>
+        <!-- <p class="lead"> -->
+        <p>
+          {{project.text}}
+        </p>
+      </div>
+      <div class="col-md-5 {% cycle '', 'order-md-1' %} section-image text-center">
+        <img class="featurette-image img-fluid" data-src="holder.js/500x500/auto" alt="addoptml" src="{{project.img}}" data-holder-rendered="true">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    {% endfor %}
+  </div>
+</section>

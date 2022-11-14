@@ -1,0 +1,49 @@
+# Site settings
+title: ADDOPTML
+email: youremail@yourdomain.net
+description: MSCA-RISE-2020 Marie Skłodowska-Curie Research and Innovation Staff Exchange (RISE) - ADDOPTML
+type: website
+image: 
+host: 0.0.0.0
+
+# Server Config options
+livereload: true
+
+# SASS
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+contact:
+  - name: UCY 
+    img: /assets/imgs/contact/20210309_134207.png
+    position: 
+    bio: 
+  - name: EWF
+    img: /assets/imgs/contact/EWF-12.png
+    position: 
+    bio: 
+  - name: POLITO
+    img: /assets/imgs/contact/foto 3.png
+    position: 
+    bio: 
+
+coordinator:
+  - name: photo1
+    img: /assets/imgs/coordinator/MX3D_RobotArm__Merlin_Moritz.png
+  - name: photo2
+    img: /assets/imgs/coordinator/MX3D_Robotic_Welding__Merlin_Moritz.png
+  - name: photo3
+    img: /assets/imgs/coordinator/MX3D_Takenaka_Connector_Robot_White__Leonard_Faustle.png    
+
+consortium_about:
+  - name: photo1
+    img: /assets/imgs/consortium/consortium1.png
+  - name: photo2
+    img: /assets/imgs/consortium/consortium4.png
+  - name: photo3
+    img: /assets/imgs/consortium/consortium8.png    
+
+
+include:
+  - _pages
